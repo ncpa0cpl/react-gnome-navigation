@@ -1,0 +1,6 @@
+{
+    "$schema": "node_modules/@reactgjs/gest/dist/gest-config.schema.json",
+    "srcDir": "./src",
+    "testDir": "__tests__",
+    "parallel": 1
+}

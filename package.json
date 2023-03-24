@@ -1,0 +1,40 @@
+{
+  "packageManager": "yarn@1.22.19",
+  "name": "react-gnome-navigation",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "fix:lint": "eslint --fix .",
+    "fix:prettier": "prettier -w ./src .",
+    "test:unit": "gest --verbose",
+    "test:lint": "eslint .",
+    "test:prettier": "prettier -c ./src && prettier -c ./__tests__",
+    "test:tsc": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "repository": {
+    "url": ""
+  },
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "Szymon Bretner",
+    "email": ""
+  },
+  "devDependencies": {
+    "@reactgjs/gest": "^0.0.1",
+    "@types/react": "^18.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "git-hook-tasks": "ncpa0cpl/git-hook-tasks",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "prettier-plugin-jsdoc": "^0.4.2",
+    "react": "^18.2.0",
+    "typescript": "^5.0.2"
+  }
+}
